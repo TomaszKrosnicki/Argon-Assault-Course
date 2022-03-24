@@ -655,12 +655,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6081717745096642295, guid: d4123286885594546aa512b152d15445, type: 3}
-      propertyPath: xRange
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6081717745096642295, guid: d4123286885594546aa512b152d15445, type: 3}
-      propertyPath: yRange
-      value: 8
+      propertyPath: controlRollFactor
+      value: -25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4123286885594546aa512b152d15445, type: 3}
