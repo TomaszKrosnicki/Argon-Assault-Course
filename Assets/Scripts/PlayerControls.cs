@@ -19,6 +19,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFireing();
     }
 
     void ProcessRotation()
@@ -33,7 +34,7 @@ public class PlayerControls : MonoBehaviour
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
-    private void ProcessTranslation()
+    void ProcessTranslation()
     {
         xThrow = Input.GetAxis("Horizontal");
         yThrow = Input.GetAxis("Vertical");
@@ -47,5 +48,17 @@ public class PlayerControls : MonoBehaviour
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
+    }
+
+    void ProcessFireing()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("I'm shooting!");
+        }
+        else
+        {
+            Debug.Log("I'm not shooting!");
+        }
     }
 }
