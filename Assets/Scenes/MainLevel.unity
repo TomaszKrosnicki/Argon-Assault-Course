@@ -156,8 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!136 &268292470
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -369,8 +371,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!1 &553443181
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,8 +408,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!136 &553443183
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -740,8 +746,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!1 &1149669325
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,8 +861,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!136 &1347747200
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -967,8 +977,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 300503859109926734, guid: 7744b665d63cdd641ae7cd96f383f3cd, type: 3}
+  hitVFX: {fileID: 300503859109926734, guid: 70a49ab8b0a59254ba5738b8ab871a59, type: 3}
   parent: {fileID: 640629567}
   scorePerHit: 15
+  hitPoints: 3
 --- !u!136 &1464369453
 CapsuleCollider:
   m_ObjectHideFlags: 0

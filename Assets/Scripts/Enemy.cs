@@ -5,8 +5,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathVFX;
+    [SerializeField] GameObject hitVFX;
     [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 15;
+    [SerializeField] int hitPoints = 3;
 
     ScoreBoard scoreBoard;
 
@@ -17,11 +19,17 @@ public class Enemy : MonoBehaviour
     void OnParticleCollision(GameObject other) 
     {
         ProcessHit();
-        KillEnenmy();
+        if (hitPoints < 1)
+        {
+            KillEnenmy();
+        }
     }
 
     void ProcessHit()
     {
+        GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
+        vfx.transform.parent = parent;
+        hitPoints--;
         scoreBoard.IncreaseScore(scorePerHit);
     }
 
