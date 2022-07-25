@@ -460,6 +460,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5948593979375980135, guid: 630d1270e70e4e349af376a1b60a59a7, type: 3}
   m_PrefabInstance: {fileID: 5691781751845164363}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1096313167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2249336641108844330, guid: dc838e6b62eb9ef40b3f43f8d7928d41, type: 3}
+  m_PrefabInstance: {fileID: 7018964013780516623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1149669325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,12 +1346,17 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 4170829118934659240, guid: 5925f464b066e4544bb091237dfc6070, type: 2}
     value: {fileID: 1562216687}
+  - key: {fileID: -423270990814620032, guid: 5925f464b066e4544bb091237dfc6070, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - c5a311279f58bcb4092d5b1768b0207a: {fileID: 1764826913}
     - d259a16e2222a064488b64e24f4c2ce6: {fileID: 1833198560}
+    - b1755ee93ec32044f9c066dbd12a0e97: {fileID: 1096313167}
     - 969151f22b00f1e42ae4e091f3c468e3: {fileID: 405577637}
+    - 7d72106ee1498d04e8c186d13545eba5: {fileID: 1096313167}
     - 07caa8e15c5dbf14fa6f85d53373db4f: {fileID: 553324405}
+    - fb036f024bf0c344287f070e66c6c9d6: {fileID: 1096313167}
     - fa8b69454a354fc46b1dec5aeecd46a1: {fileID: 429402084}
     - 01ef79ec25e60c643a0b47f5bebde3c9: {fileID: 772849680}
     - 056643b50a55f32418a6547f24c08e0e: {fileID: 590408598}
@@ -1356,10 +1366,12 @@ PlayableDirector:
     - c8bda0c1e4eec954fb34fab9dc72ffdf: {fileID: 772849680}
     - d6c83141508cdee4b9c2ed517b946231: {fileID: 769272899}
     - ac34ae3647cfffb40ba2d9bb7267d997: {fileID: 0}
+    - 24a4f6f9bb4fb2549b2aff4c87b4074a: {fileID: 1096313167}
     - 0cf0d38a621d90d4cb2939d97138a209: {fileID: 1532608679}
     - 8af5f85659410474085edd5257925d0a: {fileID: 822885144}
     - ef55a12696551424da9054c5b8890c73: {fileID: 0}
     - 9bbd6c57f5cc5a84ebb6c8b8a00caa04: {fileID: 1499485708}
+    - 48ce8c10a893b7649bf2b3de596ef024: {fileID: 1096313167}
 --- !u!4 &1961539351
 Transform:
   m_ObjectHideFlags: 0
